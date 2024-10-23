@@ -1,4 +1,4 @@
-﻿/*using System;
+﻿using System;
 namespace cs
 {
     class Program
@@ -7,9 +7,9 @@ namespace cs
         {
             char ch;
             Console.WriteLine("Enter Alphabet ");
-            ch  = Convert.ToChar(Console.ReadLine());
+            ch = Convert.ToChar(Console.ReadLine());
 
-            if ( ch >= 'A' && ch <= 'Z')
+            if (ch >= 'A' && ch <= 'Z')
             {
                 Console.WriteLine(ch + " is Uppercase");
             }
@@ -24,4 +24,4 @@ namespace cs
             Console.ReadKey();
         }
     }
-}*/
+}
